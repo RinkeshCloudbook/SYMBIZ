@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/spacing_medium"
+    android:layout_marginTop="@dimen/spacing_medium"
+    android:visibility="visible"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="2dp"
+    android:layout_marginLeft="@dimen/_7sdp"
+    android:layout_marginRight="@dimen/_7sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:layout_marginTop="@dimen/_5sdp">
+
+
+                <TextView
+                    android:id="@+id/txt_faqQuestion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="We have 30 plus years in the building industry"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                    android:textColor="@color/grey_90"
+                    android:textStyle="bold" />
+
+
+                <ImageButton
+                    android:id="@+id/bt_toggle_faq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:tint="@color/grey_60"
+                    app:srcCompat="@drawable/ic_expand_arrow"
+                    tools:ignore="VectorDrawableCompat" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lyt_expand_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/txt_faq_dec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/spacing_xmedium"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque, scelerisque ex sed,
+                                              volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla porta purus quis iaculis ultrices.
+                                               Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare odio eu lacus tincidunt malesuada.
+                                               Sed eu vestibulum elit. Curabitur tortor mi, eleifend ornare." />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/grey_10" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SYMBIZ</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Vcard</item>
+        <item>Website</item>
+        <item>Inquiry</item>
+        <item>Directory</item>
+        <item>WalkIns</item>
+        <item>SMS</item>
+        <item>Space Drive</item>
+        <item>Inquiry Register</item>
+        <item>Payment</item>
+        <item>Review and Ratings</item>
+        <item>Share</item>
+        <item>Rating</item>
+        <item>Logout</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_phone_hint">Phone</string>
+    <string name="pincode_hint">Enter Pin</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+
+    <string name="your_string_here">This is an <u>underline</u>.</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

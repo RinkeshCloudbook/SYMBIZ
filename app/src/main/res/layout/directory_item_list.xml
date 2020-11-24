@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lyt_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:minHeight="?attr/actionBarSize"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="@dimen/spacing_large"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/img_dirLogo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_pinterest" />
+
+        <View
+            android:layout_width="@dimen/spacing_large"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/txt_companyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Item Title"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@color/grey_80" />
+            <TextView
+                android:id="@+id/txt_catName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rinkesh patel,Rinkesh patel" />
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="@dimen/spacing_large"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/bt_expand"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:tint="@color/grey_60"
+            app:srcCompat="@drawable/ic_expand_arrow"
+            tools:ignore="VectorDrawableCompat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_expand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey_3"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp">
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/ic_baseline_link_24"
+                android:layout_gravity="center"
+                android:tint="@color/blue_700"
+                android:padding="@dimen/_5sdp"/>
+            <TextView
+                android:id="@+id/txt_expandWebSite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_medium"
+                android:text="Rinkesh patel,Rinkesh patel,Rinkesh patel,Rinkesh patel" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp">
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/ic_phone"
+                android:layout_gravity="center"
+                android:tint="@color/blue_700"
+                android:padding="@dimen/_5sdp"/>
+            <TextView
+                android:id="@+id/txt_expandPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_medium"
+                android:text="Rinkesh patel,Rinkesh patel,Rinkesh patel,Rinkesh patel" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp">
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/ic_baseline_mail_outline_24"
+                android:layout_gravity="center"
+                android:tint="@color/blue_700"
+                android:padding="@dimen/_5sdp"/>
+            <TextView
+                android:id="@+id/txt_expandEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_medium"
+                android:text="Rinkesh patel,Rinkesh patel,Rinkesh patel,Rinkesh patel" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/_7sdp"
+            android:layout_marginRight="@dimen/_7sdp">
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/ic_baseline_location_on_24"
+                android:layout_gravity="center"
+                android:tint="@color/blue_700"
+                android:padding="@dimen/_5sdp"/>
+            <TextView
+                android:id="@+id/txt_expandAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/spacing_medium"
+                android:text="Rinkesh patel,Rinkesh patel,Rinkesh patel,Rinkesh patel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

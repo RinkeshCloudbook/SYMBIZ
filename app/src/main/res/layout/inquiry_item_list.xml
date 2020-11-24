@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/_5sdp"
+    android:background="@color/green_50"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="false"
+    android:layout_margin="@dimen/_7sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/txt_fullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FullName"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/grey_80"
+            android:layout_marginLeft="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/txt_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"/>
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_5sdp"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
